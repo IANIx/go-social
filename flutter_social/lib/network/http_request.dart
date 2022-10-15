@@ -42,7 +42,6 @@ class StatusCode {
 }
 
 class ServerConfig {
-  /// 易加油服务器地址配置
   static String get host {
     return ERequestUrl.LOCOAL_URL;
   }
